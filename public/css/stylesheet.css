@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    line-height: 1.5;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+html, body {
+    height: 100%;
+}
+
+.full-height {
+    height: 100%;
+}
+
+a{
+	color: inherit;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.col-1{width: 8.3333%;height: 100%;}
+.col-2{width: 16.6666%;height: 100%;}
+.col-3{width: 25%;height: 100%;}
+.col-4{width: 33.3333%;height: 100%;}
+.col-5{width: 41.6666%;height: 100%;}
+.col-6{width: 50%;height: 100%;}
+.col-7{width: 58.3333%;height: 100%;}
+.col-8{width: 66.6666%;height: 100%;}
+.col-9{width: 75%;height: 100%;}
+.col-10{width: 83.3333%;height: 100%;}
+.col-11{width: 91.6666%;height: 100%;}
+.col-12{width: 100%;height: 100%;}
+
+.row-1{height: 8.3333%;width: 100%;}
+.row-2{height: 16.6666%;width: 100%;}
+.row-3{height: 25%;width: 100%;}
+.row-4{height: 33.3333%;width: 100%;}
+.row-5{height: 41.6666%;width: 100%;}
+.row-6{height: 50%;width: 100%;}
+.row-7{height: 58.3333%;width: 100%;}
+.row-8{height: 66.6666%;width: 100%;}
+.row-9{height: 75%;width: 100%;}
+.row-10{height: 83.3333%;width: 100%;}
+.row-11{height: 91.6666%;width: 100%;}
+.row-12{height: 100%;width: 100%;}
+
+.row-1, .row-2, .row-3, .row-4, .row-5, .row-6, .row-7, .row-8, .row-9, .row-10, .row-11, .row-12{
+    position: relative;
+    float: left;
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12{
+    position: relative;
+    float: left;
+}
+
+.sidebarclr{
+    background-color:rgb(34, 34, 34);
+}
+.sidebar{
+    margin-top: 100px;
+    
+}
+
+.sidebar > li > button{
+    width: 200px;
+    margin: 10px;
+    
+}
+
+.sidebarimg {
+    width:150px;
+    height:150px;
+    margin:50px;
+}
+
+.horizontal-list > li{
+    display: inline;
+}
+
+.userline > li > h5 {
+    line-height: 2;
+}
+
+/* ##################################### */
+
+.wrapper {
+    display: grid;
+    grid-template-rows: 40% 60%;
+    grid-gap: .5em;
+    max-height: 750px;
+    /* height: 100%; */
+}
+
+.wrapper > div{
+    background: #eee;
+    padding: 1em;
+}
+
+.wrapper > div:nth-child(odd){
+    background: #ddd;
+}
